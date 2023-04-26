@@ -10,7 +10,7 @@ import fetch from 'node-fetch';
 const url =  'http://127.0.0.1:8000/post/checkout';
 //const endpoints = [url , url, url];
 let endpoints = [];
-for( let i=0; i<100; i++){
+for( let i=0; i<10; i++){
     endpoints.push( url );
 }
 
